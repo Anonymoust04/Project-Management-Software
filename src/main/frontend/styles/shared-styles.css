@@ -1,0 +1,27 @@
+/* Add this to your existing CSS file */
+
+.logout-button {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Ensure the icon and text are properly aligned */
+.logout-button vaadin-icon {
+    margin-right: 0.5em;
+}
+
+.drawer-toggle {
+    color: white !important;
+    background-color: white;
+}
+
+.drawer-toggle::before,
+.drawer-toggle::after,
+.drawer-toggle div {
+    background-color: white !important;
+}

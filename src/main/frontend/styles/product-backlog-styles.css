@@ -1,0 +1,89 @@
+.product-backlog-view {
+    padding: 0;
+    background-color: darkgray;
+}
+
+.product-backlog-header {
+    background-color: aquamarine;
+    color: var(--lumo-primary-contrast-color);
+    padding: var(--lumo-space-m);
+    box-sizing: border-box;
+}
+
+.product-backlog-header-text {
+    margin: 0;
+    text-align: center;
+}
+
+.tag {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    border-radius: var(--lumo-border-radius-m);
+    margin-right: var(--lumo-space-xs);
+}
+
+.priority-low {
+    background-color: var(--lumo-success-color-10pct);
+    color: var(--lumo-success-text-color);
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    border-radius: var(--lumo-border-radius-m);
+}
+
+.priority-medium {
+    background-color: #FFFACD;
+    color: #8B8000;
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    border-radius: var(--lumo-border-radius-m);
+}
+
+.priority-important {
+    background-color: var(--lumo-error-color-10pct);
+    color: var(--lumo-error-text-color);
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    border-radius: var(--lumo-border-radius-m);
+}
+
+.priority-urgent {
+    background-color: var(--lumo-error-color);
+    color: var(--lumo-primary-contrast-color);
+    padding: var(--lumo-space-xs) var(--lumo-space-s);
+    border-radius: var(--lumo-border-radius-m);
+}
+
+.add-button-green {
+    background-color: ghostwhite;
+    color: darkseagreen;
+}
+
+.delete-button-red {
+    background-color: ghostwhite;
+    color: red;
+}
+
+.sort-menu {
+    margin-right: auto;
+    background-color: var(--lumo-contrast-5pct);
+    border-radius: var(--lumo-border-radius-m);
+    padding: var(--lumo-space-xs);
+}
+
+.sort-menu vaadin-menu-bar-button {
+    color: var(--lumo-secondary-text-color);
+    font-weight: 500;
+}
+
+.sort-menu vaadin-menu-bar-button::part(label) {
+    display: flex;
+    align-items: center;
+}
+
+.sort-menu vaadin-menu-bar-button::part(toggle) {
+    display: none;
+}
+
+/* Add some space between the icon and text */
+.sort-menu vaadin-menu-bar-button span {
+    margin-left: var(--lumo-space-xs);
+}
+

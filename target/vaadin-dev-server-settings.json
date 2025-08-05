@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/MA_Thursday8am_Team6/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/MA_Thursday8am_Team6/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "D:/MA_Thursday8am_Team6/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\MA_Thursday8am_Team6\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\MA_Thursday8am_Team6\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/MA_Thursday8am_Team6/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/MA_Thursday8am_Team6/target/dev-bundle/config",
+  "jarResourcesFolder": "D:/MA_Thursday8am_Team6/./src/main/frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "D:\\MA_Thursday8am_Team6\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

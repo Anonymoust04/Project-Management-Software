@@ -1,0 +1,58 @@
+.sprint-board-view {
+    padding: 0;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    min-height: 200vh;
+
+}
+
+.sprint-board-header {
+    background-color: aquamarine;
+    color: var(--lumo-primary-contrast-color);
+    padding: var(--lumo-space-m);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.sprint-board-header-text {
+    margin: 0;
+    text-align: center;
+    font-size: var(--lumo-font-size-xl);
+}
+
+.sprint-board-content {
+    flex-grow: 1;
+    background-color: darkgray;
+    padding: var(--lumo-space-m);
+    display: flex;
+    flex-direction: column;
+}
+
+.create-sprint-button {
+    margin-bottom: var(--lumo-space-m);
+}
+
+.sprint-container {
+    flex-grow: 1;
+    max-height: 800px; /* Set a maximum height for the sprint container */
+    overflow-y: auto; /* Allow scrolling if content exceeds the maximum height */
+    padding: 10px; 
+}
+
+/* for the status label */
+.status-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.delete-button-red {
+    background-color: #ff6b6b !important;
+    color: white !important;
+}
+
+.undo-button-blue {
+    background-color: #4a89dc !important;
+    color: white !important;
+}
+

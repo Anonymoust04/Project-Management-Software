@@ -1,0 +1,11 @@
+com\example\application\entity\CheckBox.class
+com\example\application\FirebaseInit.class
+com\example\application\views\TaskItem.class
+com\example\application\Application.class
+com\example\application\entity\SprintBacklog.class
+com\example\application\ProductBacklogController.class
+com\example\application\views\MainView.class
+com\example\application\entity\SortWay.class
+com\example\application\views\ProductBacklogView.class
+com\example\application\FirebaseService.class
+com\example\application\ProductBacklogService.class
